@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Detective: The Global Mystery Game</title>
+    <link rel="stylesheet" href="styles-update.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Language Detective</h1>
+            <div class="score-board">
+                <span>Score: <span id="score">0</span></span>
+                <span>Level: <span id="level">1</span></span>
+            </div>
+        </header>
+        
+        <main>
+            <div id="scene-container">
+                <div id="scene" class="hidden">
+                    <div id="scene-image"></div>
+                    <div id="scene-description"></div>
+                </div>
+                
+                <div id="character-container" class="hidden">
+                    <div id="character-image"></div>
+                    <div id="dialog-box">
+                        <p id="character-dialog"></p>
+                    </div>
+                </div>
+                
+                <div id="clue-container" class="hidden">
+                    <h3>Clues Found:</h3>
+                    <ul id="clues-list"></ul>
+                </div>
+            </div>
+            
+            <div id="intro-screen">
+                <h2>Welcome, Detective!</h2>
+                <p>A mysterious language thief is traveling around the world, stealing words from different languages!</p>
+                <p>Your mission is to track them down by speaking to witnesses and finding clues.</p>
+                <p>You'll need to learn words in different languages to solve this case!</p>
+                <button id="start-game">Start Investigation</button>
+                <p><small>Note: This game uses speech recognition and works best in Google Chrome.</small></p>
+            </div>
+            
+            <div id="speech-controls" class="hidden">
+                <button id="speak-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c1.103 0 2 .897 2 2v7c0 1.103-.897 2-2 2s-2-.897-2-2v-7c0-1.103.897-2 2-2zm0-2c-2.209 0-4 1.791-4 4v7c0 2.209 1.791 4 4 4s4-1.791 4-4v-7c0-2.209-1.791-4-4-4zm8 9v2c0 4.418-3.582 8-8 8s-8-3.582-8-8v-2h2v2c0 3.309 2.691 6 6 6s6-2.691 6-6v-2h2zm-7 13v-2h-2v2h2z"/></svg>
+                    Ask a Question
+                </button>
+                <div id="speech-feedback">
+                    <p id="recognized-speech"></p>
+                </div>
+            </div>
+            
+            <div id="translation-helper" class="hidden">
+                <h3>Language Helper</h3>
+                <div id="translations"></div>
+            </div>
+        </main>
+        
+        <div id="map-container" class="hidden">
+            <h3>World Map</h3>
+            <div id="world-map"></div>
+            <div id="location-options"></div>
+        </div>
+    </div>
+    
+    <script src="script-update.js"></script>
+</body>
+</html>
