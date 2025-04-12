@@ -68,9 +68,18 @@ This game is built with:
 
 To run the game locally:
 1. Clone this repository
-2. Open index.html in a web browser (Chrome recommended)
-3. Allow microphone access when prompted
-4. Start your detective adventure!
+2. There are two versions of the game:
+   - Original version: Use `index.html` (requires image files in the assets folder)
+   - Ready-to-use version: Use `index-update.html` (uses placeholder images from picsum.photos)
+3. Open the chosen HTML file in a web browser (Chrome recommended)
+4. Allow microphone access when prompted
+5. Start your detective adventure!
+
+## Files in this Repository
+
+- `index.html` & `script.js` & `styles.css`: Original version (requires image assets)
+- `index-update.html` & `script-update.js` & `styles-update.css`: Ready-to-use version with placeholder images
+- `assets/` folder: Contains instructions for adding your own custom images
 
 ## Note on Speech Recognition
 
