@@ -1,0 +1,29 @@
+This file is a placeholder to ensure the assets folder exists.
+
+For the game to work correctly, you'll need to add the following image files to this folder:
+
+## Location Images
+- paris.jpg
+- sydney.jpg
+- tokyo.jpg
+- mexico_city.jpg
+- rome.jpg
+- cairo.jpg
+- world-map.jpg
+
+## Character Images
+- baker.jpg
+- artist.jpg
+- lifeguard.jpg
+- guide.jpg
+- chef.jpg
+- museum_guide.jpg
+- mexican_chef.jpg
+- musician.jpg
+- gelato_maker.jpg
+- italian_guide.jpg
+- vendor.jpg
+- thief.jpg
+
+You can use image placeholder services like:
+https://picsum.photos/400/300?random=1
